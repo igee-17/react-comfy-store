@@ -75,7 +75,7 @@ const Wrapper = styled.article`
   border: 2px solid red;
   /* width: 100%; */
   display: grid;
-  grid-template-columns: 200px auto auto;
+  grid-template-columns: 180px auto auto;
   grid-template-rows: 75px;
   gap: 3rem 1rem;
   justify-items: center;
