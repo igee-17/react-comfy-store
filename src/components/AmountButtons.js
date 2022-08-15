@@ -27,6 +27,7 @@ const AmountButtons = ({ increase, decrease, amount, stock }) => {
 const Wrapper = styled.div`
   display: grid;
   /* width: 185px; */
+  border: 2px solid red;
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
