@@ -39,8 +39,8 @@ const Wrapper = styled.div`
     border-color: transparent;
     cursor: pointer;
     padding: 1rem 0;
-    width: 2rem;
-    height: 1rem;
+    width: 1rem;
+    height: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
