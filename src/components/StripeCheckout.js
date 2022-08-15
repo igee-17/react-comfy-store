@@ -94,7 +94,7 @@ const CheckoutForm = () => {
   return (
     <div>
       {succeeded ? (
-        <article>
+        <article style={{ marginTop: "40px" }}>
           <h4>Thank you</h4>
           <h4>Payment Sucessful!!</h4>
           <h4>Redirecting to home page...</h4>
@@ -104,7 +104,7 @@ const CheckoutForm = () => {
           <h4>Hello, {myUser && myUser.name}</h4>
           <h5>Your total is {formatPrice(shipping_fee + total_amount)}</h5>
           <p>
-            Test Cart :{" "}
+            Test Card :{" "}
             <span
               onClick={(e) => {
                 // console.log(e.target.textContent);
@@ -303,6 +303,7 @@ const Wrapper = styled.section`
   .test-card .active {
     color: var(--clr-grey-3);
   }
+
   @keyframes loading {
     0% {
       -webkit-transform: rotate(0deg);
