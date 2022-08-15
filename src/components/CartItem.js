@@ -73,7 +73,7 @@ const Wrapper = styled.article`
     display: none;
   }
   border: 2px solid red;
-  width: 100%;
+  /* width: 100%; */
   display: grid;
   grid-template-columns: 200px auto auto;
   grid-template-rows: 75px;
