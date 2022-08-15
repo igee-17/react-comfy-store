@@ -6,7 +6,6 @@ import { FaTrash } from "react-icons/fa";
 import { useCartContext } from "../context/cart_context";
 import { Link } from "react-router-dom";
 const CartItem = ({ mainId, id, name, image, color, price, amount, max }) => {
-  
   const { removeItem, toggleAmount } = useCartContext();
   const [newAmount, setNewAmount] = React.useState(amount);
 
@@ -73,6 +72,8 @@ const Wrapper = styled.article`
   .price {
     display: none;
   }
+  border: 2px solid red;
+  width: 100%;
   display: grid;
   grid-template-columns: 200px auto auto;
   grid-template-rows: 75px;
