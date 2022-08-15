@@ -72,7 +72,7 @@ const Wrapper = styled.article`
   .price {
     display: none;
   }
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* width: 100%; */
   display: grid;
   grid-template-columns: 180px auto auto;
